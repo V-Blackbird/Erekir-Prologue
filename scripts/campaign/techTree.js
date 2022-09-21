@@ -1,4 +1,4 @@
-Events.run(EventType.ClientLoadEvent, () => {
+/*Events.run(EventType.ClientLoadEvent, () => {
     const node = (parent, contentType, requirements, objectives) => {
         const tnode = extend(TechTree.TechNode, parent.TechNode, contentType, requirements === null ? requirements: contentType.researchRequirements());
         let used = new ObjectSet();
@@ -20,3 +20,4 @@ Events.run(EventType.ClientLoadEvent, () => {
 
     node(theOrbit, SectorPresets.onset, null, Seq.with(new Objectives.SectorComplete(theOrbit), new Objectives.Research(Blocks.oreBeryllium)));
 });
+*/
