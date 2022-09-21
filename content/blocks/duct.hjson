@@ -1,0 +1,16 @@
+type: Conveyor
+size: 1
+health: 90
+speed: 79
+displayedSpeed: 11
+research: {
+  parent: core-bastion
+  items: [
+    beryllium/5
+  ]
+}
+requirements: [
+  beryllium/1
+]
+category: distribution
+research: core-bastion
