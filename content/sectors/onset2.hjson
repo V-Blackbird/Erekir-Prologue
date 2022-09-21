@@ -1,0 +1,15 @@
+sector: 10
+planet: erekir
+addStartingItems: true
+research: {
+  parent: theOrbit
+  objectives: [
+      {
+        type: SectorComplete
+        preset: theOrbit
+      }
+    ]
+  }
+difficulty: 1
+enemyBase: true
+localizedName: The Onset
