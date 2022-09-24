@@ -1,16 +1,22 @@
-type: Conveyor
+type: Duct
+description: Moves items forward due to pressure differences. Can be used only in the microgravitational enviroment.
+details: Once used as the post system in the libraries. This technology is modified to transport resources but at the cost of usefulness in gravity.
+name: Microgravitational duct
 size: 1
 health: 90
-speed: 79
+speed: 4
 displayedSpeed: 11
 research: {
-  parent: core-bastion
-  items: [
-    beryllium/5
+  parent: theOrbit
+  requirements: [
+    beryllium/8
+    copper/45
+    lead/45
   ]
 }
-requirements: [
-  beryllium/1
-]
 category: distribution
-research: core-bastion
+requirements: [
+  copper/1
+  lead/1
+  beryllium/2
+]
